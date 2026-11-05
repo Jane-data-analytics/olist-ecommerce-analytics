@@ -14,24 +14,22 @@ The goal is to transform raw e-commerce data into actionable insights through da
 
 ## 🛠️ Tools & Technologies
 
-- **MySQL** – Data cleaning, transformation, and analysis
-- **Microsoft Excel** – Data preparation and analysis
-- **Power BI** – Interactive dashboard and data visualization
+- **Microsoft Excel** – Data cleaning, data preparation, Pivot Tables, and exploratory data analysis
+- **MySQL** – SQL querying, data analysis, and business insight generation
+- **Power BI** – Data modelling, interactive dashboards, and data visualization
 
 ## 📂 Project Structure
 
-```text
 olist-ecommerce-analytics/
 │
-├── data/       # Dataset and data documentation
-├── sql/        # MySQL queries
-├── powerbi/    # Power BI dashboard
-├── excel/      # Excel analysis
-├── images/     # Dashboard screenshots
-├── reports/    # Findings and recommendations
+├── data/        # Raw Olist datasets
+├── excel/       # Excel data cleaning and Pivot Table analysis
+├── sql/         # MySQL analysis queries
+├── powerbi/     # Power BI dashboard file
+├── images/      # Power BI dashboard screenshots
+├── 1. reports/  # Key findings and business recommendations
 │
 └── README.md
-```
 
 ## 📊 Business Analysis Areas
 
@@ -46,10 +44,46 @@ olist-ecommerce-analytics/
 
 ## 📈 Power BI Dashboard
 
-The project includes an interactive Power BI dashboard designed to present key e-commerce performance indicators and business insights.
+An interactive Power BI dashboard was developed to analyze Brazilian e-commerce business performance.
+
+The dashboard covers:
+
+- Sales and revenue performance
+- Order trends and purchasing patterns
+- Customer behaviour
+- Product category performance
+- Payment analysis
+- Customer reviews
+- Delivery performance
+
+**Dashboard Screenshots:** Available in the `images/` folder.
 
 **Dashboard Preview:**  
 *Dashboard screenshots will be added here.*
+
+## 📊 Microsoft Excel Analysis
+
+Microsoft Excel was used for initial data preparation and exploratory analysis.
+
+Key activities:
+
+- Imported and reviewed the Olist dataset.
+- Cleaned and prepared raw data for analysis.
+- Used Pivot Tables to summarize business data.
+- Explored sales, orders, customers, products, and payment patterns.
+- Prepared structured data for further SQL and Power BI analysis.
+
+- ## 🗄️ MySQL Data Analysis
+
+MySQL was used to explore the Olist dataset and answer key business questions through SQL queries.
+
+Key activities:
+
+- Explored and analyzed multiple Olist tables.
+- Used JOINs to combine related datasets.
+- Applied aggregate functions and GROUP BY for business analysis.
+- Analyzed sales, orders, customers, products, payments, and reviews.
+- Used SQL queries to identify business trends and insights.
 
 ## 🔍 Data Preparation & Analysis
 
