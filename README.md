@@ -80,7 +80,7 @@ The project includes an interactive Power BI dashboard designed to present key e
 
 ## 👩‍💻 Author
 
-**Jane – Aspiring Data Analyst**
+**Jane Keerthana – Aspiring Data Analyst**
 
 Skills: MySQL | Microsoft Excel | Power BI | Data Analytics
 
