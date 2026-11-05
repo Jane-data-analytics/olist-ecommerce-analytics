@@ -86,7 +86,9 @@ The dashboard covers:
 - Customer reviews
 - Delivery performance
 
-**Dashboard Screenshots:** Available in the `images/` folder.
+### Dashboard Preview
+
+![Olist E-commerce Dashboard](images/Olist%20E-commerce%20Dashboard.png)
 
 ## 🔍 Data Preparation & Analysis
 
