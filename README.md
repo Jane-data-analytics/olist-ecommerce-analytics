@@ -1,4 +1,4 @@
-# 🇧🇷 Brazilian E-Commerce Analytics | Olist
+# Brazilian E-Commerce Analytics | Olist
 
 ### End-to-End Data Analytics Project
 
