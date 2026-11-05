@@ -323,3 +323,24 @@ GROUP BY p.product_id,
          t.product_category_name_english
 ORDER BY total_revenue DESC
 LIMIT 10;
+
+
+--17. REPEAT CUSTOMER ANALYSIS
+
+SELECT
+    COUNT(*) AS total_unique_customers,
+    SUM(order_count > 1) AS repeat_customers,
+    ROUND(
+        SUM(order_count > 1) * 100.0 / COUNT(*),
+        2
+    ) AS repeat_customer_percentage
+FROM (
+    SELECT
+        c.customer_unique_id,
+        COUNT(DISTINCT o.order_id) AS order_count
+    FROM olist_customers c
+    JOIN olist_orders o
+        ON c.customer_id = o.customer_id
+    GROUP BY c.customer_unique_id
+) AS customer_orders;
+
