@@ -198,8 +198,8 @@ SELECT COUNT(*) AS total_orders
 FROM olist_orders;
 
 -- Total Customers
-SELECT COUNT(*) AS total_customers
-FROM olist_customers;
+SELECT COUNT(DISTINCT customer_unique_id) AS total_customers
+FROM olist_customers;;
 
 -- Total Sellers
 SELECT COUNT(*) AS total_sellers
