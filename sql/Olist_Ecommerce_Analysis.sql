@@ -162,7 +162,7 @@ GROUP BY product_category_name
 HAVING COUNT(*) > 1;
 
 
--- 04. GELOCATION DATA CLEANING
+-- 04. GEOLOCATION DATA CLEANING
 
 
 CREATE TABLE olist_geolocation_clean AS
@@ -199,7 +199,7 @@ FROM olist_orders;
 
 -- Total Customers
 SELECT COUNT(DISTINCT customer_unique_id) AS total_customers
-FROM olist_customers;;
+FROM olist_customers;
 
 -- Total Sellers
 SELECT COUNT(*) AS total_sellers
