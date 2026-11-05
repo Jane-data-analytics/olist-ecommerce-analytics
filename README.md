@@ -23,7 +23,7 @@ The goal is to transform raw e-commerce data into actionable insights through da
 ```text
 olist-ecommerce-analytics/
 │
-├── data/        # Raw Olist datasets
+├── data/        # Combined and processed Olist dataset
 ├── excel/       # Excel data cleaning and Pivot Table analysis
 ├── sql/         # MySQL analysis queries
 ├── powerbi/     # Power BI dashboard file
@@ -115,11 +115,16 @@ The dashboard covers:
 - Build interactive business dashboards.
 - Communicate meaningful, data-driven business insights.
 
+
 ## 📁 Dataset
 
-**Source:** Olist Brazilian E-Commerce Public Dataset – Kaggle.
+**Dataset:** Brazilian E-Commerce Public Dataset by Olist
 
-The dataset contains information about orders, customers, products, sellers, payments, reviews, and geolocation.
+**Original Dataset Source:** [Kaggle – Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+The repository includes a combined and processed dataset for reference and analysis.
+
+The original nine CSV files can be downloaded from Kaggle to reproduce the complete SQL analysis.
 
 ## 👩‍💻 Author
 
@@ -131,4 +136,3 @@ Aspiring Data Analyst
 
 ---
 
-*This project is part of my Data Analytics Portfolio.*
