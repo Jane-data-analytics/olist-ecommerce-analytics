@@ -2,7 +2,7 @@
 
 ### End-to-End Data Analytics Project
 
-An end-to-end e-commerce data analytics project using **MySQL, Microsoft Excel, and Power BI** to explore Brazilian e-commerce data, understand customer purchasing behaviour, and analyze sales and order performance.
+An end-to-end e-commerce data analytics project using **Microsoft Excel, MySQL, and Power BI** to explore Brazilian e-commerce data, understand customer purchasing behaviour, and analyze sales and order performance.
 
 ---
 
@@ -10,16 +10,17 @@ An end-to-end e-commerce data analytics project using **MySQL, Microsoft Excel, 
 
 This project analyzes the Brazilian E-Commerce Public Dataset by Olist. It explores order transactions, customers, products, sellers, payments, and customer reviews to generate meaningful business insights.
 
-The goal is to transform raw e-commerce data into actionable insights through data cleaning, SQL analysis, and interactive Power BI visualizations.
+The goal is to transform raw e-commerce data into actionable insights through data preparation, exploratory analysis, SQL analysis, and interactive Power BI visualizations.
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Excel** – Data cleaning, data preparation, Pivot Tables, and exploratory data analysis
-- **MySQL** – SQL querying, data analysis, and business insight generation
-- **Power BI** – Data modelling, interactive dashboards, and data visualization
+- **Microsoft Excel** – Data cleaning, data preparation, Pivot Tables, and exploratory data analysis.
+- **MySQL** – SQL querying, data quality checks, data analysis, and business insight generation.
+- **Power BI** – Data modelling, interactive dashboards, and data visualization.
 
 ## 📂 Project Structure
 
+```text
 olist-ecommerce-analytics/
 │
 ├── data/        # Raw Olist datasets
@@ -73,17 +74,20 @@ Key activities:
 - Explored sales, orders, customers, products, and payment patterns.
 - Prepared structured data for further SQL and Power BI analysis.
 
-- ## 🗄️ MySQL Data Analysis
+## 🗄️ MySQL Data Analysis
 
-MySQL was used to explore the Olist dataset and answer key business questions through SQL queries.
+MySQL was used to perform data quality checks, prepare data, and analyze Brazilian e-commerce business performance.
 
 Key activities:
 
-- Explored and analyzed multiple Olist tables.
-- Used JOINs to combine related datasets.
-- Applied aggregate functions and GROUP BY for business analysis.
-- Analyzed sales, orders, customers, products, payments, and reviews.
-- Used SQL queries to identify business trends and insights.
+- Inspected table structures and checked NULL values.
+- Identified duplicate records across dataset tables.
+- Created a cleaned geolocation table using DISTINCT.
+- Calculated business KPIs such as total orders, customers, revenue, and average order value.
+- Analyzed payment methods and order statuses.
+- Identified top product categories, products, and sellers.
+- Evaluated monthly order and revenue trends.
+- Analyzed customer locations and delivery performance.
 
 ## 🔍 Data Preparation & Analysis
 
