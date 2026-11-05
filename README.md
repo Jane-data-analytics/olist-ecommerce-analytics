@@ -74,17 +74,17 @@ Key activities:
 
 ## 📈 Power BI Dashboard
 
-An interactive Power BI dashboard was developed to analyze Brazilian e-commerce business performance and present key business insights.
+An interactive Power BI dashboard was developed to analyze Brazilian e-commerce business performance.
 
-The dashboard covers:
+The dashboard includes:
 
-- Sales and revenue performance
-- Order trends and purchasing patterns
-- Customer behaviour
-- Product category performance
-- Payment analysis
-- Customer reviews
-- Delivery performance
+- Total Orders, Total Revenue, Total Customers, and Average Order Value KPIs.
+- Monthly Revenue and Order Trends.
+- Order Status Analysis.
+- Top 5 Products Analysis.
+- Payment Methods Analysis.
+- Orders by Customer State in Brazil.
+- Interactive Year, Month, and Customer State slicers.
 
 ### Dashboard Preview
 
